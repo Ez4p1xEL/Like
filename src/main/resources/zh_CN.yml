@@ -1,0 +1,27 @@
+Language: en
+Prefix: 'Like'
+commands:
+  top: '&8&m                                                   '
+  plugin: '                &b&l%prefix% %version%'
+  space-1: '&f'
+  help: '&7/%prefix% help &6查看帮助'
+  like: '&7/%prefix% like <player> &6为一名玩家点赞'
+  reload: '&7/%prefix% reload &6重载配置文件'
+  space-8: '&f'
+  bottom: '&8&m                                                   '
+
+no-perm: '&7[&d%prefix%&7] &c你没有权限!'
+invalid-player: '&7[&d%prefix%&7] &c玩家不存在或不在线.'
+like-already: '&7[&d%prefix%&7] &c你已经为 &e%player% &c点过赞了!'
+like-self: '&7[&d%prefix%&7] &c你不能为自己点赞!'
+
+like-success: '&7[&d%prefix%&7] &a你点赞了 &e%player%&a!'
+liked: '&7[&d%prefix%&7] &e%player% &a给你点了个赞'
+reload-success: '&7[&d%prefix%&7] &a配置文件重载成功!'
+
+upgrade: '&7[&d%prefix%&7] &a你的点赞等级升级至 &9%level%&a!'
+max-level: '&7[&d%prefix%&7] &a你的等级已是服务器限制的最高等级, 你无法再进行任何升级!'
+reward: '&7[&d%prefix%&7] &a你获得了等级 &9%level%&a 的专属奖励!'
+
+console:
+  player-upgrade: '&7[&d%prefix%&7] &e%player% &a的点赞等级升级至 &9%level%&a!'

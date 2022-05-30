@@ -1,0 +1,27 @@
+Language: en
+Prefix: 'Like'
+commands:
+  top: '&8&m                                                   '
+  plugin: '                &b&l%prefix% %version%'
+  space-1: '&f'
+  help: '&7/%prefix% help &6View help.'
+  like: '&7/%prefix% like <player> &6Like a player.'
+  reload: '&7/%prefix% reload &6Reload the config.'
+  space-8: '&f'
+  bottom: '&8&m                                                   '
+
+no-perm: '&7[&d%prefix%&7] &cYou do not have perms!'
+invalid-player: '&7[&d%prefix%&7] &cInvalid or offline player.'
+like-already: '&7[&d%prefix%&7] &cYou liked &e%player% &calready!'
+like-self: '&7[&d%prefix%&7] &cYou cannot like yourself!'
+
+like-success: '&7[&d%prefix%&7] &aYou liked &e%player%&a!'
+liked: '&7[&d%prefix%&7] &e%player% &aliked you!'
+reload-success: '&7[&d%prefix%&7] &aConfiguration reloaded!'
+
+upgrade: '&7[&d%prefix%&7] &aYour liked level is upgraded to &9%level%&a!'
+max-level: '&7[&d%prefix%&7] &aYour level is the maximum of the server so you cannot upgrade anymore.'
+reward: '&7[&d%prefix%&7] &aYou got rewards of level &9%level%&a!'
+
+console:
+  player-upgrade: '&7[&d%prefix%&7] &e%player% &ais upgraded to &9%level%&a!'

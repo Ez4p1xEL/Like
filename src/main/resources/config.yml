@@ -1,0 +1,29 @@
+# Version
+Version: 1.0.0-Beta
+
+# Language: en, zh_CN
+Language: en
+
+# how many point will add when get liked.
+add: 1
+
+# how many point(s) will upgrade the liked level.
+points-to-level: 10
+
+# the command(s) that will execute when upgraded.
+liked-level-commands:
+  - 'minecraft:give %player% diamond 1'
+
+# max liked level.
+max-level: 500
+
+# rewards.
+rewards:
+  # The level that would execute command when a player upgrade to that.
+  1:
+    commands:
+      - 'minecraft:give %player% golden_apple 6'
+  5:
+    commands:
+      - 'minecraft:give %player% iron_ingot 32'
+

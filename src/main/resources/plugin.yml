@@ -1,0 +1,7 @@
+name: Like
+main: p1xel.like.Like
+version: 1.0.0-Beta
+api-version: 1.13
+commands:
+  like:
+    aliases: []
