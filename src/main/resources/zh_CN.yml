@@ -25,3 +25,8 @@ reward: '&7[&d%prefix%&7] &a你获得了等级 &9%level%&a 的专属奖励!'
 
 console:
   player-upgrade: '&7[&d%prefix%&7] &e%player% &a的点赞等级升级至 &9%level%&a!'
+
+update-check:
+  invalid: '无法检查更新: '
+  latest: '没有可用的更新'
+  outdate: '有可用的更新'

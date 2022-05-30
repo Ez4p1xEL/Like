@@ -12,6 +12,8 @@ public class Config {
         return Like.getInstance().getConfig().getString(path);
     }
 
+    public static boolean getBool(String path) { return Like.getInstance().getConfig().getBoolean(path); }
+
     public static int getInt(String path) {
         return Like.getInstance().getConfig().getInt(path);
     }

@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import p1xel.like.Command.Cmd;
 import p1xel.like.Hook.HPAPI;
 import p1xel.like.Listeners.DataCreate;
+import p1xel.like.SpigotMC.UpdateChecker;
 import p1xel.like.Storage.Config;
 import p1xel.like.Storage.Data;
 import p1xel.like.Storage.Locale;
@@ -42,9 +43,17 @@ public class Like extends JavaPlugin {
         new Metrics(this, pluginId);
         //
 
-        getLogger().info("PVPMode " + Config.getVersion() + " loaded!");
+        getLogger().info("Like " + Config.getVersion() + " loaded!");
 
-        getLogger().info("Plugin loaded!");
+        if (Config.getBool("check-update")) {
+            new UpdateChecker(this, 102307).getVersion(version -> {
+                if (this.getDescription().getVersion().equals(version)) {
+                    getLogger().info(Locale.getMessage("update-check.latest"));
+                } else {
+                    getLogger().info(Locale.getMessage("update-check.outdate"));
+                }
+            });
+        }
     }
 
 }

@@ -25,3 +25,8 @@ reward: '&7[&d%prefix%&7] &aYou got rewards of level &9%level%&a!'
 
 console:
   player-upgrade: '&7[&d%prefix%&7] &e%player% &ais upgraded to &9%level%&a!'
+
+update-check:
+  invalid: 'Unable to check for updates: '
+  latest: 'There is not a new update available.'
+  outdate: 'There is a new update available.'

@@ -27,3 +27,5 @@ rewards:
     commands:
       - 'minecraft:give %player% iron_ingot 32'
 
+check-update: true
+
