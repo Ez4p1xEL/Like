@@ -1,6 +1,6 @@
 name: Like
 main: p1xel.like.Like
-version: 1.0.0-Beta
+version: 1.0.1
 api-version: 1.13
 commands:
   like:

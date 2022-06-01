@@ -44,4 +44,8 @@ public class Locale {
         return ChatColor.translateAlternateColorCodes('&', get().getString(path).replaceAll("%prefix%", get().getString("Prefix")));
     }
 
+    public static String translate(String message) {
+        return ChatColor.translateAlternateColorCodes('&', message.replaceAll("%prefix%", get().getString("Prefix")));
+    }
+
 }

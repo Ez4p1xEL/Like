@@ -113,6 +113,12 @@ public class Data {
         set(targetUUID + ".list", list);
     }
 
+    public static void clearList(String uuid) {
+        List<String> list = getList(uuid);
+        list.clear();
+        set(uuid + ".list", list);
+    }
+
     public static void checkPoint(String uuid) {
         if (getPoint(uuid) >= Config.getInt("points-to-level")) {
             Player p = Bukkit.getPlayer(UUID.fromString(uuid));
